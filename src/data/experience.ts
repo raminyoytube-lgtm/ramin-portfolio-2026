@@ -1,0 +1,48 @@
+import { Experience } from '@/types';
+
+export const experiences: Experience[] = [
+  {
+    id: 'exp-2026',
+    year: 2026,
+    title: 'Senior UI/UX Designer & Front-End Developer',
+    titleEn: 'Senior UI/UX Designer & Front-End Developer',
+    company: 'Digital Agency Pro',
+    companyEn: 'Digital Agency Pro',
+    description: 'طراحی و توسعه وب‌سایت‌های حرفه‌ای و پیاده‌سازی Design Systems مدرن',
+    descriptionEn: 'Designing and developing professional websites and implementing modern design systems',
+    technologies: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Figma'],
+  },
+  {
+    id: 'exp-2024',
+    year: 2024,
+    title: 'UX/UI Design Lead',
+    titleEn: 'UX/UI Design Lead',
+    company: 'Tech Innovation Studio',
+    companyEn: 'Tech Innovation Studio',
+    description: 'رهبری تیم طراحی و توسعه محصولات دیجیتال innovative',
+    descriptionEn: 'Leading design team and developing innovative digital products',
+    technologies: ['Figma', 'Prototyping', 'User Research', 'Design Systems'],
+  },
+  {
+    id: 'exp-2022',
+    year: 2022,
+    title: 'Full Stack Web Developer',
+    titleEn: 'Full Stack Web Developer',
+    company: 'Web Solutions Inc',
+    companyEn: 'Web Solutions Inc',
+    description: 'توسعه و نگهداری وب‌سایت‌های پیچیده و سریع‌الکار',
+    descriptionEn: 'Developing and maintaining complex and high-performance websites',
+    technologies: ['React', 'Node.js', 'MongoDB', 'AWS'],
+  },
+  {
+    id: 'exp-2020',
+    year: 2020,
+    title: 'Web Designer',
+    titleEn: 'Web Designer',
+    company: 'Creative Design Co',
+    companyEn: 'Creative Design Co',
+    description: 'طراحی رابط کاربری و تجربه کاربری برای پروژه‌های متنوع',
+    descriptionEn: 'Designing user interfaces and user experiences for various projects',
+    technologies: ['Figma', 'Adobe XD', 'HTML', 'CSS'],
+  },
+];
